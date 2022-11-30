@@ -4,9 +4,9 @@ import { Spinner } from '../Spinner';
 const buttonTypes = ['submit', 'reset', 'button'];
 
 const normalClasses =
-	'bg-indigo-600 hover:bg-indigo-800 focus:bg-indigo-500 focus:ring-4 focus:outline-none focus:ring-indigo-300';
+	'bg-orange-500 hover:bg-orange-600 focus:bg-orange-500 focus:ring-4 focus:outline-none focus:ring-orange-200';
 
-const disabledClasses = 'bg-indigo-300 cursor-not-allowed';
+const disabledClasses = 'bg-orange-300 cursor-not-allowed';
 const errorClasses =
 	'bg-red-600 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300';
 

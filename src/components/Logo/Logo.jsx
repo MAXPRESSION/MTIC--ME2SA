@@ -9,9 +9,9 @@ export function Logo({ spin = false }) {
 	const spinClass = spin ? 'animate-spin-slow' : '';
 
 	return (
-		<Link to={to} className="flex mb-6 text-2xl font-semibold text-gray-900 ">
+		<Link to={to} className="flex mb-6 text-2xl font-semibold text-blue-800 font-bold">
 			<SvgIcon name="react" className={`w-8 h-8 mr-2 ${spinClass} `} />
-			<span className="h-8">Insta Ya!</span>
+			<span className="h-8">ME2SA</span>
 		</Link>
 	);
 }

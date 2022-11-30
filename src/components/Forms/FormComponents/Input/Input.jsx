@@ -26,7 +26,7 @@ const inputTypes = [
 ];
 
 const normalClasses =
-	'border border-gray-300 focus:border-indigo-500 focus:ring-indigo-300';
+	'border border-gray-300 focus:border-blue-500 focus:ring-blue-300';
 const errorClasses = 'border border-red-500 focus:ring-red-300';
 
 export function Input({
@@ -62,7 +62,7 @@ export function Input({
 
 	return (
 		<input
-			className={`bg-gray-50 text-gray-900 rounded-lg w-full p-2.5 focus:outline-none focus:ring-4 ${dynamicClasses}`}
+			className={`bg-gray-50 text-gray-900 rounded-lg w-full p-2 focus:outline-none focus:ring-4 ${dynamicClasses}`}
 			ref={ref}
 			type={type}
 			name={name}

@@ -228,7 +228,7 @@ export function NewRequestForm() {
 						required: true,
 						options: [
 							{ value: 'guardado', display: 'Guardado' },
-							{ value: 'cumplido', display: 'Cumplido' },
+							{ value: 'cumplido', display: 'Entregado' },
 						],
 					}}
 				/>

@@ -9,7 +9,7 @@ export function Checkbox({ name, isSelected, onCheck }) {
 			value={isSelected}
 			checked={isSelected}
 			onClick={onCheck}
-			className="w-4 h-4 accent-indigo-600 bg-gray-100 rounded border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-300"
+			className="w-4 h-4 accent-blue-800 bg-gray-100 rounded border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-300"
 			readOnly
 		/>
 	);

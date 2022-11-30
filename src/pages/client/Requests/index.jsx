@@ -50,7 +50,7 @@ export function Requests() {
 							<Logo spin /> &nbsp; - Solicitudes
 						</h1>
 						<span
-							className="pt-2 text-red-500 italic cursor-pointer hover:underline"
+							className="pt-2 text-orange-500 italic cursor-pointer hover:underline"
 							onClick={signOutHandler}
 						>
 							Cerrar sesi&oacute;n
@@ -60,7 +60,7 @@ export function Requests() {
 					<div className="flex flex-col space-y-8 pr-8 max-h-150 overflow-y-auto scrollbar-thin scrollbar-thumb-rounded-full scrollbar-track-rounded-full scrollbar-thumb-indigo-600 scrollbar-track-indigo-300">
 						<Link
 							to="/client/requests/new"
-							className="ml-4 pt-2 text-indigo-600 italic cursor-pointer hover:underline"
+							className="ml-4 pt-2 text-blue-800 font-bold cursor-pointer hover:underline"
 						>
 							Añadir solicitud
 						</Link>

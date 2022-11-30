@@ -66,11 +66,11 @@ export function SignInForm() {
 				Ingresar
 			</Button>
 
-			<p className="text-sm font-normal text-gray-500 ">
+			<p className="text-sm font-normal text-gray-500 text-center">
 				¿No tienes cuenta? &nbsp;
 				<Link
 					to="/auth/sign-up"
-					className="font-medium text-indigo-600 hover:underline "
+					className="font-medium text-blue-800 hover:underline "
 				>
 					Registrate!
 				</Link>
